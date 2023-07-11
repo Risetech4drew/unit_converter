@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+/* typography */
+.heading{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.84px;
+    line-height: 38px;
+}
+.supporting-text{
+    font-size: 20px;
+    color: #5A537B;
+    font-weight: 600;
+    line-height: 20px;
+    
+}
+.conversion-results{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #353535;
+    
+}
+
+.converter{
+    /* width: 550px;
+    margin: 0 auto;
+    border: 2px solid #6943ff; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.input-section{
+    width: 550px;
+    background: #6943FF;
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-area{
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: #6943FF;
+    border: none;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.393px;
+    font-style: normal;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input-area:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 125px;
+    background: #FFF;
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    /* height: 42px; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px 0 rgba(0, 0, 0, 0.05);
+}
+button:active{
+    box-shadow: none;
+}
+
+.conversions-section{
+    width: 550px;
+    background: #F4F4F4;
+    padding: 10px;
+}
+
+
+.card{
+    width: 500px;
+    background: var(--white, #FFF);
+    border-radius: 5px 0px 0px 0px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    
+}
