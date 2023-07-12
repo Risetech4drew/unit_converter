@@ -25,6 +25,17 @@ body{
     color: #353535;
     
 }
+.warning-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #cc2936 ;
+    font-weight: 800;
+    padding: 5px 10px;
+    min-width: fit-content;
+    height: 20px;
+    /* border: 2px solid whitesmoke; */
+    
+}
 
 .container{
     /* width: 550px;
@@ -54,7 +65,7 @@ body{
     flex-shrink: 0;
     background-color: #6943FF;
     border: none;
-    border: 2px solid #FFF;
+    border: 2px solid #fff;
     border-radius: 5px;
     color: #FFF;
     font-size: 58px;
@@ -62,6 +73,16 @@ body{
     line-height: 24.393px;
     font-style: normal;
 }
+/* adding red border when input field is empty */
+.redborder{
+    border: 2px solid #cc2936;
+}
+/* styling conversion text to turn red when input feild is null */
+.redtext{
+    color: #cc2936;
+    font-weight: 600;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button{
     -webkit-appearance: none;
@@ -72,7 +93,7 @@ input[type="number"]::-webkit-outer-spin-button{
 }
 
 button{
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 20px;
     width: 125px;
     background: #FFF;
